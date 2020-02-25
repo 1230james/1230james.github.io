@@ -36,6 +36,11 @@ $(document).ready(function() {
     for (let text in navlinks) {
         str += `<a href="${navlinks[text]}">${text}</a> ${sep} `;
     }
+    
+    // REDIRECT NOTICE
+    str += "<br/><br/><em><strong>NOTICE:</strong> This site has moved to a new address. Click <a href='https://1230james.works' rel='external'>here</a> to go to the new address.";
+    // REDIRECT NOTICE
+    
     $("#navbar").html(str);
     currentPath = location.pathname;
     
