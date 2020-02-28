@@ -38,7 +38,7 @@ $(document).ready(function() {
     }
     
     // REDIRECT NOTICE
-    str += "<br/><br/><em><strong>NOTICE:</strong> This site has moved to a new address. Click <a href='https://1230james.works' rel='external'>here</a> to go to the new address.";
+    str += "<br/><br/><em><strong>NOTICE:</strong> This site has moved to a new address. Click <a href='https://jameshyun.xyz' rel='external'>here</a> to go to the new address.";
     // REDIRECT NOTICE
     
     $("#navbar").html(str);

@@ -1,7 +1,9 @@
 /* Global/Primary CSS sheet */
 
+/* Bootstrap */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
 
 /* Mini-Reset */
@@ -17,7 +19,7 @@ html * {
 
 /* Body */
 body {
-    background-color: #eee; /* uhhh nobody will kill me for straying from the 216-color palette in 2020 right? */
+    background-color: #E5F7FF; /* uhhh nobody will kill me for straying from the 216-color palette in 2020 right? */
     color: #444; /* Japan be like "yo what" */
 }
 
@@ -26,30 +28,9 @@ body a:link, body a:visited { color: #444 }
 nav a:link, nav a:visited  { color: #eee }
 body a:hover { color: #999 }
 
-/* Header text */
-header {
-    line-height: 50%;
-    padding: 1px 0px;
-}
-header h1 {
-    font-family: 'Acme', Arial, Helvetica, sans-serif;
-}
-
-/* Nav bar */
-nav {
-    margin: auto;
-    padding: 0px 0px 5px 0px;
-	display: inline-block;
-}
-
-/* Header & Nav bar combined */
+/* Header & Nav bar */
 #headernav {
-    background-color: #444;
-    color: #eee;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    text-align: center;
+    background-color: #44445B;
 }
 
 /* Big h2 */
@@ -125,12 +106,4 @@ footer {
     margin: auto;
     font-size: large;
     width: 150px;
-}
-
-/* Invis */
-.invis {
-    height: 0;
-    width: 0;
-    padding: 0;
-    margin: 0;
 }
